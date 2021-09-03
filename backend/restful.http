@@ -1,0 +1,25 @@
+@BASE_URL = http://localhost:8080/api
+
+GET {{BASE_URL}}/users
+###
+POST {{BASE_URL}}/users
+Content-Type: application/json
+
+{
+    "ad":"orh23san",
+    "soyad":"sogut",
+    "kullaniciAdi":"as11ansgt",
+    "email":"askasas11dksm@gamil.com",
+    "sifre": "123das45"
+}
+
+
+###
+PATCH  {{BASE_URL}}/users/60eaef4ec5e9d621e0e62ac6
+Content-Type: application/json
+
+{
+    "sifre":"adsasdasdasdasdm"
+}
+
+###
